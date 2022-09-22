@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.screen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+
+}
+
+
+
+/*Left side*/
+.leftScreen{
+    width: 50%;
+    height: 100%;
+}
+
+.liquidBanner > .textBanner > h2{
+    position: relative;
+    transform: translate(16%, 35%);
+    color: white;
+    
+
+    font-size: 5.8rem;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#pentagono{
+    position: fixed;
+    top: -27%;
+    left: -10%;
+    width: 44%;
+}
+
+.categories{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    padding: 50px;
+
+}
+
+.categories button img{
+    width: 27px;
+
+}
+
+.categories hr{
+    width: 20px;
+    height: 01px;
+    margin: 10px;
+    border: 0;
+    background-color: rgb(141, 141, 141);
+
+}
+/* Right side */
+.rightScreen{
+    width: 50%;
+    height: 100%;
+}
+
+.containBlocks{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+}
+.containBlocks #titleRight{
+    font-size: 2rem;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item > img{
+    width: 60px;
+}
+
+
+.item button{
+    border: 0;
+    background-color: white;
+}
+
+.item button > img{
+    width: 16px;
+}
