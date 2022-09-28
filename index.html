@@ -6,22 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css.css">
     <title>Glass Store</title>
-</head>
+</head> 
 <body>
     <div class="screen">
         <div class="leftScreen">
             <div class="liquidBanner">
-                <img src="sources/pentagono2.png" alt="pentagono" id="pentagono">
-                <div class="textBanner">
+                <img src="sources/pentagono.png" alt="pentagono" id="pentagono">
+                <div class="toHide"></div>
+                <div class="toHide toHides"></div>
+                <div class="toHide toHidet">
+                    <img src="sources/decoration01.png" alt="decoration"            id="decoration01">
+                    <img src="sources/decoration02.png" alt="decoration" id="decoration02">
+                    <div class="textBanner">
                     <h2>Sofa<br>cake</h2>
+                    </div>
                 </div>
+           
+                
             </div>
             <div class="categories">
-                <button>
+                <button id="selectedB">
                     <img 
                         src="sources/couch.png"
                         alt="couchIcon"
-                        height="32px"
                         >
                 </button>
                 <hr>
@@ -29,6 +36,7 @@
                     <img 
                         src="sources/dryer.png"
                         alt="dryer"
+                        
                         >
                 </button>
                 <hr>
@@ -36,6 +44,7 @@
                     <img 
                         src="sources/washer.png"
                         alt="washer"
+                        
                         >
                 </button>
 
@@ -44,14 +53,15 @@
 
         <div class="rightScreen">
             <div class="containBlocks">
-                <p id="titleRight">My<br>Storehouse</p>
-                <div class="label">
-                    <p>PRODUCT</p>
-                </div>
+                <p id="titleRight">My<br>storehouse</p>
                 <div class="products">
+                    <div class="item label">
+                        <p class="nameTag ">PRODUCT</p>
+                        <p>ND</p>
+                    </div>
                     <div class="item">
-                        <p>Worktop </p>
-                        <p> 110 X 110   </p>
+                        <p class="nameTag">Worktop </p>
+                        <p class="size"> 110 X 110   </p>
                         <img
                             src="sources/iten01.png"
                             alt="referenceImage"
@@ -64,10 +74,10 @@
                         </button>
                     </div>
                     <div class="item">
-                        <p>Worktop </p>
-                        <p> 110 X 110   </p>
+                        <p class="nameTag">Couch capsule</p>
+                        <p class="size"> 110 X 110   </p>
                         <img
-                            src="sources/iten01.png"
+                            src="sources/capsule.png"
                             alt="referenceImage"
                             >
                         <button id="addButton">
@@ -78,10 +88,10 @@
                         </button>
                     </div>
                     <div class="item">
-                        <p>Worktop </p>
-                        <p> 110 X 110   </p>
+                        <p class="nameTag">Couch cake</p>
+                        <p class="size"> 110 X 110   </p>
                         <img
-                            src="sources/iten01.png"
+                            src="sources/couchIcon.png"
                             alt="referenceImage"
                             >
                         <button id="addButton">
@@ -94,10 +104,22 @@
                 
                 </div>
             </div>
+
+            <div class="profile">
+                <img class="profileIcon" src="sources/profile.png" alt="profile">
+            </div>
+
+            <div class="actionChange">
+                <img
+                    src="sources/closeIcon.png" 
+                    alt="closeIcon"
+                    class="actionButton"
+                    >
+            </div>
             
-            <div class="profileIcon"></div>
-            <div class="actionButton"></div>
-        </div>
+            
+
+        </div>            
 
         <div class="middleBar"></div>
     </div>
